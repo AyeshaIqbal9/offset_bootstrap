@@ -1,0 +1,26 @@
+
+/* part 1: */
+ .container{
+    border:solid black 2px;
+ }
+.col{
+    border:solid green 2px;
+}
+.lg{
+    border:solid red 2px;
+
+}
+
+
+.col-md-2{
+    background-color: pink;
+
+}
+.col-md-4{
+    background-color: yellow;
+
+}
+.container{
+    border:solid black 2px;
+
+}

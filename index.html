@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap_layout/assets/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap_layout/assets/style.css">
+</head>
+<body>
+    <!--offset-md-6 (responsive)means gap of 6 column overall 12 grid column and after below 786px of screen size
+     offset is not working-- grid no 0-11 .offset-3(not responsive always leave that space in any screen size)-->
+ <!-- part1 -->
+     <div class="container">
+    <div class="row">
+        <div class="col-lg-8 lg">it work on large screeen</div>
+    </div>
+    <div class="row">
+        <div class=" col col-sm-2">table1</div>
+        <div class=" col col-sm-10">table2</div>
+    </div>
+    <div class="row">
+        <div class=" col col-md-3 offset-4 ">hello</div>
+        <div class="col col-md-1">world</div>
+    </div>
+</div>
+
+<br>
+<br>
+
+
+<!-- in large 992 offset took 1 column screen size then in medium it become 3 column then after 768 it took the whole width -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-2 offset-lg-1 offset-md-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae tempore quae ipsam eveniet deserunt nihi</div>
+        <div class="col-md-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, culpa? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta fugit voluptatem eveniet numquam earum ipsam est atque ab eius accusamus. </div>
+    </div>
+</div>
+    
+</body>
+</html>
